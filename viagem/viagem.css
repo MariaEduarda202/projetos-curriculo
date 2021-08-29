@@ -1,0 +1,33 @@
+
+header{
+    background: linear-gradient(90deg, rgb(173, 166, 166), rgb(100, 94, 94));
+    display: inline-flex;
+    width: 100%;
+    gap: 70%;
+    border-radius: 10px;
+}
+
+header img{
+    padding-top: 15px;
+}
+
+#oceanario{
+    padding: 50px 50px;
+    display: inline-flex;
+}
+
+#oceanario img{
+    width: 100px;
+    opacity: .7;
+    border: solid 4px rgb(70, 68, 68);
+}
+
+#oceanario p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#oceanario p::first-letter{
+    font-size: 55px;
+    text-decoration: underline;
+}
+
